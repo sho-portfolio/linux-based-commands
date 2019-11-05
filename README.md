@@ -3,6 +3,10 @@
 # Install Python on a new machine (and virtual environments)
 https://wsvincent.com/install-python3-mac/
 
+# Install Jupyter
+https://jupyter.org/install
+
+
 
 # Read Excel file
 !pip install -q xlrd

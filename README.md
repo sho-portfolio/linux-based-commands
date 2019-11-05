@@ -20,3 +20,7 @@ https://cloud.google.com/sdk/docs/quickstart-macos
 
 # How to connect Colab to a VM (Compute Engine)
 https://medium.com/@senthilnathangautham/colab-gcp-compute-how-to-link-them-together-98747e8d940e
+* did not work
+
+# trying this...
+https://cloud.google.com/datalab/docs/quickstart

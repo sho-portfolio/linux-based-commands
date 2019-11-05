@@ -13,3 +13,10 @@ https://jupyter.org/install
 import pandas as pd
 df = pd.read_excel('courses/deeplearning1/excel/layers_example.xlsx')
 print(df)
+
+
+# Install Google SDK (if you want to use it)
+https://cloud.google.com/sdk/docs/quickstart-macos
+
+# How to connect Colab to a VM (Compute Engine)
+https://medium.com/@senthilnathangautham/colab-gcp-compute-how-to-link-them-together-98747e8d940e

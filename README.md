@@ -22,5 +22,15 @@ https://cloud.google.com/sdk/docs/quickstart-macos
 https://medium.com/@senthilnathangautham/colab-gcp-compute-how-to-link-them-together-98747e8d940e
 * did not work
 
-# trying this...
+# use datalab instead
 https://cloud.google.com/datalab/docs/quickstart
+*this works
+
+in the datalab notebook you need to:
+open all the files from icloud into datalab
+!pip install --upgrade tensorflow
+!pip install keras
+then run main.py
+
+# try this to integrate with github (see the second comment)
+https://stackoverflow.com/questions/43467217/how-to-pull-and-push-notebooks-to-github-from-google-cloud-datalab

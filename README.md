@@ -1,5 +1,9 @@
 # python-cheatsheet
 
+# Install PIP
+https://pip.pypa.io/en/stable/installing/
+
+
 # Install Python on a new machine (and virtual environments)
 https://wsvincent.com/install-python3-mac/
 

@@ -2,7 +2,7 @@
 
 # Install PIP
 https://pip.pypa.io/en/stable/installing/
-
+[Note that when you run the second command be sure to add --user if you get an error eg: python get-pip.py --user]
 
 # Install Python on a new machine (and virtual environments)
 https://wsvincent.com/install-python3-mac/

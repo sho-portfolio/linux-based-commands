@@ -10,6 +10,10 @@ https://pip.pypa.io/en/stable/installing/
 # Install Python on a new machine (and virtual environments)
 https://wsvincent.com/install-python3-mac/
 
+
+# Install git on debian 9
+https://www.digitalocean.com/community/tutorials/how-to-install-git-on-debian-9
+
 # Install Jupyter
 https://jupyter.org/install
 

@@ -74,3 +74,10 @@ https://stackoverflow.com/questions/4604663/download-single-files-from-github
 ```
 wget https://raw.githubusercontent.com/sho-portfolio/MachineLearning-MultiClassClassifier/master/dataTest.txt
 ```
+
+# install wget on mac
+https://www.hacksparrow.com/os/how-to-install-wget-on-your-mac.html
+```
+brew install wget
+''''
+(wget is not installed on mac os by default, but curl is and it's similar)

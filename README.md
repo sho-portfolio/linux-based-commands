@@ -49,3 +49,12 @@ then run main.py
 
 # try this to integrate with github (see the second comment)
 https://stackoverflow.com/questions/43467217/how-to-pull-and-push-notebooks-to-github-from-google-cloud-datalab
+
+# copy files from google buckets to google vm
+https://cloud.google.com/storage/docs/quickstart-gsutil#create
+## list bucket files from vm
+gsutil ls gs://my-awesome-bucket
+## copy from bucket to vm
+gsutil cp gs://my-awesome-bucket/file1.png file1.png
+gsutil cp gs://my-awesome-bucket/file1.png Desktop/file1.png
+

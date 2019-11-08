@@ -71,6 +71,6 @@ ls
 
 # Copy single file from Github to VM
 https://stackoverflow.com/questions/4604663/download-single-files-from-github
-'''
+```
 wget https://raw.githubusercontent.com/sho-portfolio/MachineLearning-MultiClassClassifier/master/dataTest.txt
-'''
+```

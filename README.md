@@ -55,6 +55,10 @@ gsutil ls gs://my-awesome-bucket
 gsutil cp gs://my-awesome-bucket/file1.png file1.png
 gsutil cp gs://my-awesome-bucket/file1.png Desktop/file1.png
 
+# Make file on google bucket accessible to everyone
+gsutil acl ch -u AllUsers:R gs://my-awesome-bucket/file1.png
+
+
 # install git on VM (Debian9)
 https://www.digitalocean.com/community/tutorials/how-to-install-git-on-debian-9
 ```

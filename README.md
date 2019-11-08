@@ -11,9 +11,6 @@ https://pip.pypa.io/en/stable/installing/
 https://wsvincent.com/install-python3-mac/
 
 
-# Install git on debian 9
-https://www.digitalocean.com/community/tutorials/how-to-install-git-on-debian-9
-
 # Install tensorflow on Debian
 pip3 install --upgrade tensorflow
 
@@ -58,9 +55,16 @@ gsutil ls gs://my-awesome-bucket
 gsutil cp gs://my-awesome-bucket/file1.png file1.png
 gsutil cp gs://my-awesome-bucket/file1.png Desktop/file1.png
 
-# install git on VM
+# install git on VM (Debian9)
 https://www.digitalocean.com/community/tutorials/how-to-install-git-on-debian-9
 ```
 sudo apt update
 sudo apt install git
+```
+
+
+# copy/clone from github to vm
+```
+git clone https://github.com/sho-portfolio/MachineLearning-MultiClassClassifier.git
+ls
 ```

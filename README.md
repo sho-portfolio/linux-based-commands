@@ -2,8 +2,8 @@
 
 # Install Pip on debian
 https://linuxize.com/post/how-to-install-pip-on-debian-9/
-```sudo apt update```
-```sudo apt install python-pip```
+</br>```sudo apt update```
+</br>```sudo apt install python-pip```
 
 # Install PIP
 https://pip.pypa.io/en/stable/installing/

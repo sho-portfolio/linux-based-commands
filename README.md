@@ -13,7 +13,7 @@ https://pip.pypa.io/en/stable/installing/
 https://wsvincent.com/install-python3-mac/
 <br/>```xcode-select --install```
 <br/>```/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
-<br/>
+<br/>```brew install python3```
 <br/>
 <br/>
 <br/>

@@ -20,9 +20,9 @@ https://wsvincent.com/install-python3-mac/
 
 
 # Install tensorflow on Debian
-'''pip3 install --upgrade tensorflow'''
+```pip3 install --upgrade tensorflow```
 (on aws) If you get an MemoryError or a Permission error try this: 
-```pip install --no-cache-dir --user tensorflow'''
+```pip install --no-cache-dir --user tensorflow```
 
 
 # Install Jupyter

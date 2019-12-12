@@ -1,8 +1,8 @@
 # python-cheatsheet
 
 # Install sudo
-```pip install sudo```
-```pip install --upgrade --user pip```
+<br/>```pip install sudo```
+<br/>```pip install --upgrade --user pip```
 
 # Install Pip on debian
 https://linuxize.com/post/how-to-install-pip-on-debian-9/

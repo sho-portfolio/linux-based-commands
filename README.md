@@ -9,6 +9,17 @@ https://linuxize.com/post/how-to-install-pip-on-debian-9/
 </br>```sudo apt update```
 </br>```sudo apt install python-pip```
 
+# Install Pip on Amazon Linux based AMI
+https://linuxize.com/post/how-to-install-pip-on-debian-9/
+</br>```sudo yum update```
+</br>```sudo yum install python-pip```
+</br> * NOTE: replace apt-get with yum as Amazon Linux based AMI uses the yum command instead of apt-get
+</br> * NOTE: On Debian derivatives such as Ubuntu, use apt. 
+</br> * NOTE: On Red Hat and derivatives, use yum. 
+</br> * NOTE: On SUSE and derivatives, use zypper
+</br> * [https://docs.aws.amazon.com/cli/latest/userguide/install-linux-python.html]
+
+
 # Install PIP
 https://pip.pypa.io/en/stable/installing/
 [Note that when you run the second command be sure to add --user if you get an error eg: python get-pip.py --user]

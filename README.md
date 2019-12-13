@@ -116,13 +116,13 @@ brew install wget
 # install mysql on EC2 instance
 https://medium.com/@chamikakasun/installing-mysql-in-an-ec2-instance-55d6a3e19caf
 once you've created an EC2 instance and SSH'd into it
-```sudo su```
-```yum update -y```
-```yum install mysql-server```
-```service mysqld start```
+<br/>```sudo su```
+<br/>```yum update -y```
+<br/>```yum install mysql-server```
+<br/>```service mysqld start```
 
-to connect to the aws mysql instance you created on rds use this command:
+<br/>to connect to the aws mysql instance you created on rds use this command:
 
-```mysql -h <end-point> -P 3306 -u <user-name> -p```
-```mysql -h sho-youtube.c4lxnjkjrvz9.us-east-1.rds.amazonaws.com -P 3306 -u root -p```
-[note: you'll need to be sure that the inbound security group allows access from the ec2 ip or some "anywhere"]
+<br/>```mysql -h <end-point> -P 3306 -u <user-name> -p```
+<br/>```mysql -h sho-youtube.c4lxnjkjrvz9.us-east-1.rds.amazonaws.com -P 3306 -u root -p```
+<br/>[note: you'll need to be sure that the inbound security group allows access from the ec2 ip or some "anywhere"]

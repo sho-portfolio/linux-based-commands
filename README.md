@@ -126,3 +126,31 @@ once you've created an EC2 instance and SSH'd into it
 <br/>```mysql -h <end-point> -P 3306 -u <user-name> -p```
 <br/>```mysql -h sho-youtube.c4lxnjkjrvz9.us-east-1.rds.amazonaws.com -P 3306 -u root -p```
 <br/>[note: you'll need to be sure that the inbound security group allows access from the ec2 ip or some "anywhere"]
+<br/>[https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.CreatingConnecting.MySQL.html]
+
+upload a file to the EC2 instance:
+```TBD```
+
+upload file into table:
+```create database quantified;
+use quantified;
+create table tbl01 (
+INPUT_FILENAME varchar(100),
+XMLType varchar(100),
+type varchar(100),
+unit varchar(100),
+value varchar(100),
+sourcename varchar(100),
+sourceversion varchar(100),
+device varchar(500),
+creationDate varchar(100),
+startDate varchar(100),
+endDate varchar(100),
+year varchar(100),
+month varchar(100),
+day varchar(100),
+hour varchar(100),
+wkday varchar(100)
+);```
+```LOAD DATA LOCAL INFILE '/home/ec2-user/Data_AppleHealth_Record_20191213-104755.csv' INTO TABLE tbl01;```
+

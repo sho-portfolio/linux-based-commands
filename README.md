@@ -108,7 +108,7 @@ wget https://raw.githubusercontent.com/sho-portfolio/MachineLearning-MultiClassC
 https://www.hacksparrow.com/os/how-to-install-wget-on-your-mac.html
 ```
 brew install wget
-''''
+```
 (wget is not installed on mac os by default, but curl is and it's similar)
 
 
@@ -119,3 +119,10 @@ once you've created an EC2 instance and SSH'd into it
 ```sudo su```
 ```yum update -y```
 ```yum install mysql-server```
+```service mysqld start```
+
+to connect to the aws mysql instance you created on rds use this command:
+
+```mysql -h <end-point> -P 3306 -u <user-name> -p```
+```mysql -h sho-youtube.c4lxnjkjrvz9.us-east-1.rds.amazonaws.com -P 3306 -u root -p```
+[note: you'll need to be sure that the inbound security group allows access from the ec2 ip or some "anywhere"]

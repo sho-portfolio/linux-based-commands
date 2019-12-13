@@ -110,3 +110,12 @@ https://www.hacksparrow.com/os/how-to-install-wget-on-your-mac.html
 brew install wget
 ''''
 (wget is not installed on mac os by default, but curl is and it's similar)
+
+
+
+# install mysql on EC2 instance
+https://medium.com/@chamikakasun/installing-mysql-in-an-ec2-instance-55d6a3e19caf
+once you've created an EC2 instance and SSH'd into it
+```sudo su```
+```yum update -y```
+```yum install mysql-server```

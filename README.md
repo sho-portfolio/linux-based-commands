@@ -152,6 +152,6 @@ day varchar(100),
 hour varchar(100),
 wkday varchar(100)
 );```
-
+<br/>
 ```LOAD DATA LOCAL INFILE '/home/ec2-user/Data_AppleHealth_Record_20191213-104755.csv' INTO TABLE tbl01;```
 
